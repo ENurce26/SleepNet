@@ -8,7 +8,7 @@ The goal of this project is to develop a Custom Integrated System for High-Densi
 
 **Quick Start**
 
-    Clone the Repository: Download the project to your local machine by cloning the GitHub repository:
+Clone the Repository:
 
 git clone https://github.com/yourusername/sleep-stage-detection.git
 
