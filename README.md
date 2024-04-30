@@ -30,9 +30,13 @@ Run the Notebook: Execute the notebook cells sequentially to load data, preproce
 To use this notebook for sleep stage detection:
 
 Open the Notebook: Launch the Jupyter Notebook or JupyterLab environment and open the provided .ipynb file.
+
 Set the Dataset Path: Modify the edf_path variable in the notebook to point to your EEG/EMG dataset file in EDF format. Ensure the file is accessible from the directory where you are running the notebook.
+
 Run the Cells Sequentially: Execute the cells in order, from importing libraries to loading data, preprocessing, model building, training, and evaluation.
+
 Adjust Parameters as Needed: You may need to adjust parameters like picks for EEG and EMG channels or segment_length based on your specific dataset or analysis needs.
+
 View the Results: Outputs including model performance metrics and any plots will be displayed directly within the notebook.
 
 **Contributing**
