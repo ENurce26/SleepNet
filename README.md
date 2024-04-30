@@ -8,23 +8,33 @@ The goal of this project is to develop a Custom Integrated System for High-Densi
 
 **Quick Start**
 
-    Clone the repository:
+    Clone the Repository: Download the project to your local machine by cloning the GitHub repository:
 
-git clone https://github.com/ENurce26/SleepNet.git
+git clone https://github.com/yourusername/sleep-stage-detection.git
 
-  Install required libraries:
+Install Dependencies: Navigate to the project directory and install the required Python libraries:
 
+cd sleep-stage-detection
 pip install -r requirements.txt
 
-  Run the detection script:
+Launch Jupyter Notebook: Start Jupyter Notebook or JupyterLab in your environment. If you do not have Jupyter installed, you can install it via pip:
 
-python detect_sleep_stages.py
+pip install notebook
+jupyter notebook
+
+Open the Notebook: In the Jupyter interface, navigate to the directory where the notebook is located and open the .ipynb file.
+
+Run the Notebook: Execute the notebook cells sequentially to load data, preprocess it, build the model, and evaluate the results.
 
 **Usage**
 
-To use this sleep stage detection system, ensure you have your dataset in an EDF file format. Place your dataset in the data directory and execute the script as shown in the Quick Start guide. The output will be a classification of each epoch into Wake, REM, or NREM stages.
+To use this notebook for sleep stage detection:
 
-python detect_sleep_stages.py --input yourdatafile.edf
+    Open the Notebook: Launch the Jupyter Notebook or JupyterLab environment and open the provided .ipynb file.
+    Set the Dataset Path: Modify the edf_path variable in the notebook to point to your EEG/EMG dataset file in EDF format. Ensure the file is accessible from the directory where you are running the notebook.
+    Run the Cells Sequentially: Execute the cells in order, from importing libraries to loading data, preprocessing, model building, training, and evaluation.
+    Adjust Parameters as Needed: You may need to adjust parameters like picks for EEG and EMG channels or segment_length based on your specific dataset or analysis needs.
+    View the Results: Outputs including model performance metrics and any plots will be displayed directly within the notebook.
 
 **Contributing**
 
