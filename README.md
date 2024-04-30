@@ -13,8 +13,6 @@ Clone the Repository:
     git clone https://github.com/yourusername/sleep-stage-detection.git
 
 Install Dependencies: Navigate to the project directory and install the required Python libraries:
-
-    cd sleep-stage-detection
     
     pip install -r requirements.txt
 
