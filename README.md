@@ -5,7 +5,8 @@ This repository contains the implementation of a Convolutional Neural Network (C
 
 **Why?**
 The goal of this project is to develop a Custom Integrated System for High-Density Polysomnography Data Acquisition and Automated Scoring. This system is particularly focused on Assessing Sleep Disturbance After Traumatic Brain Injury, a critical area of research in neurobiology. The integration of an uplink/downlink data transfer solution enhances the efficiency of handling large-scale murine data, which is pivotal for real-time and accurate sleep stage classification.
-Quick Start
+
+**Quick Start**
 
     Clone the repository:
 
